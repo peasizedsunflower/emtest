@@ -89,3 +89,38 @@ nav hr{
     border-radius: 50px;
     margin-right: 10px !important;
 }
+.navbar-header button{
+    border: none;
+    color: black;
+    background-color: rgb(129, 129, 129);
+}
+@media screen and (max-width: 760px){
+    .navbar-right .dropdown{
+        display: none !important;
+    }
+    .navbar-right li .btn{
+        width: 20%;
+    }
+}
+
+/* CONTENT */
+.content img{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.content input{
+    border-radius: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+    left: 25%;
+}
+.content input .search{
+    position: absolute;
+}
