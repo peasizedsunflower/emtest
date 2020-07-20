@@ -104,6 +104,9 @@ nav hr{
 }
 
 /* CONTENT */
+.content{
+    position: relative;
+}
 .content img{
     margin-top: 80px;
     margin-left: auto;
@@ -116,11 +119,69 @@ nav hr{
     border-radius: 20px;
     border: 1px solid rgb(219, 219, 219);
     width: 50%;
-    padding: 10px;
+    padding: 10px 40px 10px 40px;
     margin-top: 30px;
-    position: relative;
-    left: 25%;
+    /* position: relative; */
+    margin-left: 26%;
+    outline: none;
+    transition: 0.2s;
 }
-.content input .search{
+.content .search{
     position: absolute;
+    top: 88%;
+    left: 28%;
+    color: rgb(179, 179, 179);
+    font-size: 19px;
+}
+.content .mic{
+    position: absolute;
+    top: 88%;
+    left: 72%;
+    font-size: 20px;
+    color: #3A86FF;
+}
+.content input:hover{
+    box-shadow: 0px 3px 10px 0 rgba(117, 117, 117, 0.19);
+    transition: 0.2s;
+}
+
+/* FOOTER */
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   /* background-color: red; */
+   color: rgb(129, 129, 129);
+   background-color: rgb(241, 241, 241);
+   border-top: 1px solid rgb(228, 228, 228);
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px !important;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer ul .margin{
+    margin: 0px 20px;
+    /* border: 1px solid #000; */
+}
+footer .right{
+    float: right;
+    margin: 0px 20px;
+    /* border: 1px solid #000; */
+}
+footer hr{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgb(26, 20, 20) !important;
+}
+footer p{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
 }
