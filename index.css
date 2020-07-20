@@ -1,18 +1,40 @@
+/* NAVIGATION */
 .navbar{
     background-color: #fff !important;
-    /* border: none !important; */
-    padding-top: 10px;
+    border: none !important;
+    /* padding-top: 10px; */
 }
 .navbar-right li a{
-    color: black !important;
+    color: rgb(34, 34, 34) !important;
     font-size: 13px;
+    /* border: 1px solid #000; */
+    padding: 10px !important;
 }
 .navbar-right li a:hover{
     text-decoration: underline !important;
+}
+.navbar-right li a i{
+    font-size: 25px;
 }
 .navbar-right li .btn{
     background-color: #3A86FF;
     color: #fff !important;
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 15px;
+    padding: 8px 15px !important;
+    margin-left: 10px;
+}
+.navbar-right li .btn:hover{
+    background-color: #2274f8 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.navbar-right{
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.navbar-right .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
