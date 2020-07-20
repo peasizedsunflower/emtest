@@ -47,13 +47,15 @@
     padding: 20px 15px;
     width: 300px;
     height: 400px;
-    overflow: auto;
 }
 .navbar-right .dropdown-menu .grid-container .grid-item:hover{
     cursor: pointer;
 }
 .navbar-right .dropdown-menu{
     border-radius: 10px !important;
+    width: 300px;
+    height: 400px;
+    overflow: auto !important;
 }
 .navbar-right .dropdown-menu .grid-container .grid-item p{
     font-size: 13px;
@@ -72,4 +74,18 @@
 }
 nav hr{
     width: 100%;
+}
+::-webkit-scrollbar {
+    margin-right: 10px !important;
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: white; 
+    border-radius: 50px;
+    margin-right: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(206, 206, 206); 
+    border-radius: 50px;
+    margin-right: 10px !important;
 }
